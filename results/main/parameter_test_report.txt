@@ -1,0 +1,136 @@
+激波管求解器参数稳定性测试报告
+============================================================
+
+总测试数: 14
+成功: 14 (100.0%)
+有警告: 0
+有NaN: 0
+有负值: 0
+
+详细结果:
+------------------------------------------------------------
+
+测试: 标准Sod-默认参数
+  参数: nx=1000, CFL=0.2, t_end=0.01
+  成功: True
+  警告数: 0
+  NaN: False
+  负密度: False
+  负压力: False
+
+测试: 高温层-温和参数
+  参数: nx=1000, CFL=0.2, t_end=0.01
+  高温层: p=5.0 atm, T=1000.0 K
+  成功: True
+  警告数: 0
+  NaN: False
+  负密度: False
+  负压力: False
+
+测试: 高温层-中等参数
+  参数: nx=1000, CFL=0.2, t_end=0.01
+  高温层: p=10.0 atm, T=1500.0 K
+  成功: True
+  警告数: 0
+  NaN: False
+  负密度: False
+  负压力: False
+
+测试: 高温层-较强参数
+  参数: nx=1000, CFL=0.2, t_end=0.01
+  高温层: p=20.0 atm, T=2000.0 K
+  成功: True
+  警告数: 0
+  NaN: False
+  负密度: False
+  负压力: False
+
+测试: 高温层-强参数
+  参数: nx=1000, CFL=0.2, t_end=0.01
+  高温层: p=40.0 atm, T=2200.0 K
+  成功: True
+  警告数: 0
+  NaN: False
+  负密度: False
+  负压力: False
+
+测试: 高温层-极端参数
+  参数: nx=1000, CFL=0.2, t_end=0.01
+  高温层: p=80.0 atm, T=2500.0 K
+  成功: True
+  警告数: 0
+  NaN: False
+  负密度: False
+  负压力: False
+
+测试: CFL=0.05
+  参数: nx=1000, CFL=0.05, t_end=0.01
+  高温层: p=10.0 atm, T=1500.0 K
+  成功: True
+  警告数: 0
+  NaN: False
+  负密度: False
+  负压力: False
+
+测试: CFL=0.1
+  参数: nx=1000, CFL=0.1, t_end=0.01
+  高温层: p=10.0 atm, T=1500.0 K
+  成功: True
+  警告数: 0
+  NaN: False
+  负密度: False
+  负压力: False
+
+测试: CFL=0.2
+  参数: nx=1000, CFL=0.2, t_end=0.01
+  高温层: p=10.0 atm, T=1500.0 K
+  成功: True
+  警告数: 0
+  NaN: False
+  负密度: False
+  负压力: False
+
+测试: CFL=0.3
+  参数: nx=1000, CFL=0.3, t_end=0.01
+  高温层: p=10.0 atm, T=1500.0 K
+  成功: True
+  警告数: 0
+  NaN: False
+  负密度: False
+  负压力: False
+
+测试: 网格=500
+  参数: nx=500, CFL=0.2, t_end=0.01
+  高温层: p=20.0 atm, T=2000.0 K
+  成功: True
+  警告数: 0
+  NaN: False
+  负密度: False
+  负压力: False
+
+测试: 网格=1000
+  参数: nx=1000, CFL=0.2, t_end=0.01
+  高温层: p=20.0 atm, T=2000.0 K
+  成功: True
+  警告数: 0
+  NaN: False
+  负密度: False
+  负压力: False
+
+测试: 网格=2000
+  参数: nx=2000, CFL=0.2, t_end=0.01
+  高温层: p=20.0 atm, T=2000.0 K
+  成功: True
+  警告数: 0
+  NaN: False
+  负密度: False
+  负压力: False
+
+测试: 网格=3000
+  参数: nx=3000, CFL=0.2, t_end=0.01
+  高温层: p=20.0 atm, T=2000.0 K
+  成功: True
+  警告数: 0
+  NaN: False
+  负密度: False
+  负压力: False
