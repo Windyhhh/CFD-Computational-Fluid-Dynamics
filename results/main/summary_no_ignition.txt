@@ -1,0 +1,4 @@
+Scenario: no_ignition
+Final time: 0.10000430442756437
+First reflection time: 0.048005739238422204
+Max Y_H2 (x>50): 1.1310959099080307e-12
