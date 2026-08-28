@@ -56,6 +56,15 @@ CFD-Computational-Fluid-Dynamics/
 
 ---
 
+
+## Results
+
+<div align="center">
+  <img src="results/main/pressure_xt.png" alt="Pressure x-t diagram" width="70%"/>
+  <img src="results/cantera/history.png" alt="Cantera reference history" width="70%"/>
+</div>
+
+---
 ## License
 
 MIT — free to use, modify and distribute.
