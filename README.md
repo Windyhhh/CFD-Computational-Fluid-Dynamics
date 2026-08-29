@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🔬 CFD-Computational-Fluid-Dynamics
+# 计算流体力学 CFD 仿真 | CFD-Computational-Fluid-Dynamics
 
 ### CFD simulation — solvers and visualization.
 
