@@ -65,6 +65,34 @@ CFD-Computational-Fluid-Dynamics/
 </div>
 
 ---
+## 技术实现细节
+
+### 架构概览
+
+项目采用模块化设计，核心目录包括：**docs, results**。
+
+### 关键函数
+
+- `run_simple_solver`, `run_advanced_solver`, `run_cantera_solver`, `main`
+
+### 技术栈与依赖
+
+**主要 import**：
+```python
+import argparse
+import sys
+import os
+from solver.main import ShockTubeSolver
+from solver.advanced_solver import AdvancedShockTubeSolver
+from solver.cantera_solver import CanteraShockTubeSolver
+```
+
+### 实现要点
+
+- 通过 `run_simple_solver` 等函数实现核心流程编排
+- 代码结构清晰，模块间低耦合，便于扩展和维护
+
+---
 ## License
 
 MIT — free to use, modify and distribute.
